@@ -16,8 +16,6 @@ class Trojkaty {
 	if (b + c <= a) return false;
 	return true;
 	}
-    public static boolean czyProstokatny(float a, float b, float c){
-	if (a * a + b * b == c*c) return true;
 
     public static boolean czyProstokatny(float a, float b, float c){
         if (a * a + b * b == c*c) return true;
